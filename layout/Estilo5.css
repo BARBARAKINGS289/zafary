@@ -76,6 +76,15 @@ p{
 
 .Vacio {
     position: relative;
-    height: 68%;
+    height: 67%;
     background: #C3F1FF;
+}
+.Home:hover{
+    background-color:rgb(85, 194, 228);
+}
+.What:hover{
+    background-color:rgb(85, 194, 228);
+}
+.Zpotify:hover{
+    background-color:rgb(85, 194, 228);
 }
