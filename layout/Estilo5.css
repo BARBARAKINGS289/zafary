@@ -33,7 +33,7 @@ main {
     position: relative;
     width: 371px;
     height:570px;
-    
+    border-style: solid;
     border-width: 5px;
 }
 .izquierda {
@@ -66,6 +66,7 @@ p{
     position: relative;
     background: #C3F1FF;
     border: 2px solid #77DFFF;
+    width: 100%;
     text-align: center;
     font-size: 200%;
     color: #000000;
@@ -75,6 +76,6 @@ p{
 
 .Vacio {
     position: relative;
-    height: 70%;
+    height: 68%;
     background: #C3F1FF;
 }
