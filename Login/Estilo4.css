@@ -8,8 +8,8 @@ section {
     grid-row-gap: 20px;
     width: 600px;
     height: 430px;
-    left: 950px;
-    top: 300px;
+    left: 25%;
+    top: 60px;
     border-style: solid;
     border: 2px solid #C3F1FF;
     background: #F2FCFF;

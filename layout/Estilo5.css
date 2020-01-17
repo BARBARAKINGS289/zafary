@@ -1,65 +1,78 @@
 main {
     margin: 0%;
 }
-body{
-position: relative;
-width: 1100px;
-height:750px;
-left: 700px;
-top: 80px;
-border-width: 5px;
+
+body {
+    position: relative;
+    width: 1240px;
+    height: 560px;
+    border-width: 5px;
+  
 
 }
-header{
+
+header {
     position: relative;
     border-style: solid;
-    border-color: #333333;;
-    width: 1089.5px;
-    height:150.5px;
+    border-color: #333333;
+    width: 1240px;
+    height: 80px;
     background: #333333;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 200%;
 
 }
+
 main {
     position: relative;
     display: grid;
     grid-template-columns: 35% 65%;
     width: 1089px;
-    height:580px;
-    border-width: 5px;
+    height: 580px;
+
 }
+
 .derecha {
     position: relative;
     width: 371px;
-    height:570px;
-    border-style: solid;
-    border-width: 5px;
+    height: 420px;
+
 }
+
 .izquierda {
     position: relative;
     width: 697px;
-    height:570px;
-    border-width: 5px;
-}
-.superior{
-    position: relative;
-    width: 688px;
-    height:120px;
-    border-width: 5px;
-}
-.inferior{
-    position: relative;
-    width: 688px;
-    height:430px;
+    height: 570px;
     border-width: 5px;
 }
 
-span{
+.superior {
+    position: relative;
+    width: 688px;
+    height: 50px;
+    border-width: 5px;
+    text-align: center;
+    color: black;
+}
+
+.inferior {
+    position: relative;
+    width: 870px;
+    height: 420px;
+    border-width: 5px;
+    border-style: solid;
+    border: 0px;
+    left: -2.55%;
+}
+
+span {
     font-size: 250%;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .Home,
 .What,
 .Zpotify {
@@ -79,12 +92,15 @@ span{
     height: 67%;
     background: #C3F1FF;
 }
-.Home:hover{
-    background-color:#77DFFF;
+
+.Home:hover {
+    background-color: #77DFFF;
 }
-.What:hover{
-    background-color:#77DFFF;
+
+.What:hover {
+    background-color: #77DFFF;
 }
-.Zpotify:hover{
-    background-color:#77DFFF;
+
+.Zpotify:hover {
+    background-color: #77DFFF;
 }
