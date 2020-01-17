@@ -9,14 +9,17 @@ zpotify.addEventListener('click', cargarZpotify);
 function cargarHome() {
     const dinamico = document.querySelector('#contenido-dinamico');
     dinamico.setAttribute('src', '../home/Home.html');
+    document.getElementById("nombre").innerHTML = "Home ";
 }
 
 function cargarWhat() {
     const dinamico = document.querySelector('#contenido-dinamico');
     dinamico.setAttribute('src', '../whatzapp/Whatzapp.html');
+    document.getElementById("nombre").innerHTML = "whatzapp ";
 }
 
 function cargarZpotify() {
     const dinamico = document.querySelector('#contenido-dinamico');
     dinamico.setAttribute('src', '../zpotify/zpotify.html');
+    document.getElementById("nombre").innerHTML = "Zpotify";
 }
