@@ -15,7 +15,7 @@ function cargarHome() {
 function cargarWhat() {
     const dinamico = document.querySelector('#contenido-dinamico');
     dinamico.setAttribute('src', '../whatzapp/Whatzapp.html');
-    document.getElementById("nombre").innerHTML = "whatzapp ";
+    document.getElementById("nombre").innerHTML = "Whatzapp ";
 }
 
 function cargarZpotify() {
