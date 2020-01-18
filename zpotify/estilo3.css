@@ -6,11 +6,11 @@ main {
     position: absolute;
     width: 750px;
     height: 1300px;
-    left: 900px;
-    top: 83px;
+    left: 60px;
+    top: 25px;
     border-style: solid;
     border-color: #C3F1FF;
-    ;
+    
     background: #F2FCFF;
     border: 1px box-sizing: border-box;
     border-radius: 30px;
