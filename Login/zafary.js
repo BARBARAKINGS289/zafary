@@ -17,13 +17,13 @@ function mostrarDatos() {
     } else {
         if (textValue1 === 'ejemplo@gmail.com' && textValue2 === '123456') {
             document.getElementById("error").innerHTML = " ";
-            boton.addEventListener('click', funcionQueRedirecciona);
-
-            function funcionQueRedirecciona() {
             document.location.assign("../layout/Layout.html");
-            }
+           
         } else {
             document.getElementById("error").innerHTML = "Nombre de usuario y/o contraseña incorrectos";
         }
     }
 }
+
+
+   

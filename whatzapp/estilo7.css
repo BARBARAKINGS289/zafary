@@ -1,22 +1,19 @@
 body {
     margin: 0;
-    padding-left: 0.5%;
-    padding-top: 2.5%;
 }
 
 main {
     display: grid;
     grid-template-columns: 30% 70%;
-    width: 860px;
-    height: 400px;
-    padding-left: 1%;
-    padding-top: 2%;
-
+    width: 800px;
+    height: 317px;
+    margin-left: 30px;
+    margin-top: 17px;
 } 
 
 header {
     position: relative;
-    height: 50px;
+    height: 53px;
     text-align: center;
     font-size: 200%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -25,13 +22,14 @@ header {
 
 .contacto {
     position: relative;
+    width: 100%;
+    height: 70px;
     background: #DBDBDB;
     border-style: solid;
     border:1px#8C8C8C  ;
     text-align: center;
-    font-size: 167%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    font-size: 165%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
 
 .primer,
@@ -42,37 +40,43 @@ header {
 .sexto {
     position: relative;
     width: 100%;
-    height: 12.5%;
+    height: 49.3px;
     background: #FFFFFF;
     border: 1px solid #DBDBDB;
-    text-align: center;
-    font-size: 100%;
-    font-size: 100%;
+    text-align: justify;
+    font-size: 85%;
+    padding-left: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
-
+.encabezado{
+    position: relative;
+    background:#DBDBDB;
+    width: 559px;
+    height: 71px;
+    text-align: center;
+}
 .vacio {
     position: relative;
-    width: 95%;
-    height: 250px;
+    width: 560px;
+    height: 244px;
     background: #F2F2F2;
 }
 
 img {
     position: relative;
-    top: 10%;
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    border-radius: 100%;   
+    top: 2px;
+    left: -10px;
 }
 
 input {
     position: relative;
-    width: 92%;
+    width: 93%;
     height: 40px;
     top: 81%;
-    left: 30px;
+    left: 25px;
     box-sizing: border-box;
     padding-left: 5%;
     background: #FFFFFF;
@@ -82,20 +86,10 @@ input {
     font-size: 140%;
 }
 
-.encabezado{
-    position: relative;
-    background:#DBDBDB;
-    width: 95%;
-    height: 18%;
-}
 span{
-    font-size: 160%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 25%;
-    
-
+    font-size: 140%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
-
 
 .primer:hover {
     background-color: #F2F2F2;
